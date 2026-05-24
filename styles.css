@@ -1,0 +1,80 @@
+/* ⬇️ ajoute ton style ici ⬇️ */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+#Inscription {
+  margin-top: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h2 {
+  font-weight: 500;
+  padding: var(--spacing) 0;
+}
+label {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+input select {
+  width: 100%;
+  padding: var(--spacing);
+  margin: var(--spacing) 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+#Inscription select {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+#Inscription {
+  margin-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+#Inscription label {
+  width: 100%;
+  max-width: 500px;
+
+  margin-bottom: 5px;
+}
+
+#Inscription input,
+#Inscription select,
+#Inscription button {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 12px;
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+}
+
+#Inscription h2 {
+  text-align: center;
+}
